@@ -42,7 +42,7 @@ def destroy():
     GPIO.cleanup()
 
 if __name__ == "__main__":
-    setup()
+    setup_gpio()
 
     try:
         main()
